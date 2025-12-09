@@ -5,7 +5,7 @@ Vendor: D-Link
 
 Firmware: DIR842A1_FW102KRB03
 
-Router firmware D-Link DIR842A1 checks the DDNS function in ncc2 binary file for command injection, which can cause arbitrary command execution
+A Remote Command Execution (RCE) vulnerability exists in DIR-842A1 via the doCheck function in ncc2 binary file. which can cause arbitrary command execution.
 
 There is a “doCheck” function in the ncc2 binary file.
 
