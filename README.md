@@ -9,11 +9,11 @@ Router firmware D-Link DIR842A1 checks the DDNS function in ncc2 binary file for
 
 There is a “doCheck” function in the ncc2 binary file.
 
-![image](https://github.com/WhereisRain/dir-815/blob/main/somecode.jpg)
+![image](https://github.com/WhereisRain/DIR-842/blob/main/1.png)
 
 The ddnshostname and ddnusername variables are controllable and directly brought in without any check，Parameters from external input can propagate into the _system function, leading to command injection.
 
-![image](https://github.com/WhereisRain/dir-815/blob/main/somecode.jpg)
+![image](https://github.com/WhereisRain/DIR-842/blob/main/2.png)
 
 # poc
 POST /ddns_check.ccp HTTP/1.1
